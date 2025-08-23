@@ -1,0 +1,29 @@
+{
+  "favorites": [
+    {
+      "id": "1755839003157",
+      "name": "Home",
+      "address": "Rizal Park, Manila",
+      "coordinates": {
+        "lat": 14.5833516,
+        "lng": 120.9799471
+      },
+      "createdAt": "2025-08-22T05:03:23.157Z",
+      "useCount": 1,
+      "lastUsed": "2025-08-22T05:03:44.192Z"
+    },
+    {
+      "id": "1755839065847",
+      "name": "QC",
+      "address": "Quezon City, Philippines",
+      "coordinates": {
+        "lat": 14.6510546,
+        "lng": 121.0486254
+      },
+      "createdAt": "2025-08-22T05:04:25.847Z",
+      "useCount": 2,
+      "lastUsed": "2025-08-22T05:07:24.291Z"
+    }
+  ],
+  "lastUpdated": "2025-08-22T05:07:24.291Z"
+}

@@ -1,0 +1,8 @@
+# PDF Processing Dependencies
+pypdf==5.1.0
+
+# AI and OpenAI Integration (optional, for future use)
+openai==1.57.1
+
+# Text Processing
+python-dotenv==1.0.1
