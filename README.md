@@ -16,16 +16,45 @@ A comprehensive disaster risk assessment tool for the Philippines, combining Ope
 
 ## 🚀 Quick Start
 
+### ⚡ Fastest Way to Run the App
+
+```bash
+# 1. Install dependencies
+npm install
+
+# 2. Set up Python environment (for AI features)
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+
+# 3. Run the web application
+npm run dev
+# 🌐 Open http://localhost:3000 in your browser
+
+# 4. OR run CLI tools
+npm run sow-cli -- examples  # Show CLI examples
+npm run sow-cli -- --help    # Show CLI help
+```
+
 ### Prerequisites
+
+- **Node.js** (v20+ recommended)
+- **npm** or **pnpm** package manager  
+- **Python 3.12+** (for AI features)
+
+### Detailed Setup
 
 ```bash
 # Install Node.js dependencies
+npm install
+# OR if you have pnpm
 pnpm install
 
 # Set up Python environment for AI features
-curl -LsSf https://astral.sh/uv/install.sh | sh  # Install uv package manager
-uv venv .venv                                     # Create virtual environment
-uv pip install -r requirements.txt               # Install Python dependencies
+python3 -m venv .venv                             # Create virtual environment
+source .venv/bin/activate                         # Activate (Linux/Mac)
+# .venv\Scripts\activate                          # Activate (Windows)
+pip install -r requirements.txt                   # Install Python dependencies
 
 # Set up environment variables (for AI features)
 echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
